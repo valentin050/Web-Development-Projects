@@ -4,7 +4,7 @@
     <!-- This is where the metadata goes, name of the page -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>What is Triathlon?</title>
 </head>
 <body>
@@ -17,42 +17,40 @@
     </header>
 
     <main>
-        <article>
-            <section>
-                <!-- This is a brief description of the sport-->
-                <h2>What is it about?</h2>
+         <article class="content-grid">
+            <section id="overview" class="card">
+                <h2 class="section-title">What is it about?</h2>
                 <p>Triathlon is a multi-sport event that consists of three consecutive disciplines: swimming, cycling, and running.</p>
 
-                <!-- Order of Disciplines -->
-                <h2>Disciplines</h2>
-                <p>The three disciplines are typically performed in the following order:</p>
+                <!-- Order of Disciplines --> 
+                <h2 class="section-title">Disciplines</h2>
+                <p>The three disciplines are typically performed in this order:</p>
                 <ol>
                     <li>Swimming</li>
                     <li>Cycling</li>
                     <li>Running</li>
                 </ol>
             </section>
-
-            <section>
-                <!-- And the distances-->
-                <h2>Types of Triathlons</h2>
+ 
+            <!-- Types of Triathlons -->
+            <section id="distances" class="card">
+                <h2 class="section-title">Types of Triathlons</h2>
                 <p>There are several distances, including:</p>
                 <ul>
-                    <li>Super Sprint Distance: 400m swim, 10km bike, 2.5km run</li>
-                    <li>Sprint Distance: 750m swim, 20km bike, 5km run</li>
-                    <li>Olympic Distance: 1.5km swim, 40km bike, 10km run</li>
+                    <li>Super Sprint: 400m swim, 10km bike, 2.5km run</li>
+                    <li>Sprint: 750m swim, 20km bike, 5km run</li>
+                    <li>Olympic: 1.5km swim, 40km bike, 10km run</li>
                     <li>Half Ironman: 1.9km swim, 90km bike, 21.1km run</li>
                     <li>Ironman: 3.8km swim, 180km bike, 42.2km run</li>
                 </ul>
-
-                <p>The ones that I like the most are the Olympic and sprint distances.</p>
+                <p>The ones I like the most are the Olympic and sprint distances.</p>
             </section>
-
-            <footer>
-                <!-- link to the other page-->
-                <p> Click here to learn more about <a href="page2.html"> triathlons</a></p>
-            </footer>
-        </article>
+        </article> 
     </main>
+
+    <footer>
+        <!-- Link to the other page -->
+        <p>Click here to learn more about <a href="page2.html">triathlons</a>.</p>
+    </footer>
 </body>
 </html>
