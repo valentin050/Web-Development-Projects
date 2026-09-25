@@ -1,4 +1,4 @@
-/* General styles for HTML tags */
+/*General styles*/
 body {
     margin: 0;
     background-color: #eef7f5;
@@ -45,7 +45,7 @@ main {
     gap: 24px;
 }
 
-/*reusable class*/
+/*reusable classes*/
 .card {
     flex: 1 1 300px;
     padding: 24px;
@@ -53,9 +53,16 @@ main {
     border-radius: 12px;
 }
 
-/*reusable class*/
+
 .section-title {
     color: #087e8b;
+}
+
+.card img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
 }
 
 /*IDs*/
@@ -64,6 +71,14 @@ main {
 }
 
 #distances {
+    border-top: 6px solid #e09f3e;
+}
+
+#equipment {
+    border-top: 6px solid #087e8b;
+}
+
+#extra-gear {
     border-top: 6px solid #e09f3e;
 }
 

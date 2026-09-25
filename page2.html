@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>What equipment do you need for a  Triathlon?</title>
 </head>
-<body>
-    <!--content of the pages goes here-->
+
+<!--content of the pages goes here-->
+<body> 
     <!--title-->
     <header>
         <h1>What equipment do you need for a  Triathlon?</h1>
@@ -16,32 +17,32 @@
     </header>
 
     <main>
-        <article>
-            <section>
-                <!-- This is a brief description of the equipment-->
-                <h2>Equipment</h2>
-                <p>The three disciplines require specific equipment:</p>
+        <!-- flexbox places these sections side by side when there is room -->
+        <article class="content-grid">
+            <section id="equipment" class="card">
+                <h2 class="section-title">Essential Equipment</h2>
+                <p>Each discipline requires specific equipment:</p>
                 <ol>
-                    <li>Swimming: Swimsuit, goggles, swim cap, if is too cold a wetsuit</li>
-                    <li>Cycling: Bicycle, helmet, cycling shoes, glasses</li>
-                    <li>Running: Running shoes</li>
+                    <li>Swimming: swimsuit, goggles, swim cap, and possibly a wetsuit.</li>
+                    <li>Cycling: bicycle, helmet, cycling shoes, and glasses.</li>
+                    <li>Running: running shoes.</li>
                 </ol>
 
-                <!-- Image of triathlon equipment -->
-                <img src="./images/equipamiento-triatlon.jpg" alt="Triathlon equipment" width="600" height="400">   
-                <p>
-                    Depending on the distance and weather conditions, additional gear may be necessary for safety and comfort.
-                    For example, a wetsuit may be required for swimming in cold water, and a hydration system may be needed for longer distances.
-                    Also, in the longest distance you may wear socks for the cycling and running disciplines, but in the shortest distances you can do it without them.
-                </p>
+                <!-- Image of equipment -->
+                <img src="./images/equipamiento-triatlon.jpg" alt="Equipment used for swimming, cycling, and running in a triathlon." width="600" height="400">
             </section>
 
-            <footer>
-                <!-- link to the other page-->
-                <p> Click here to go back <a href="index.html"> home </a></p>
-            </footer>
+            <section id="extra-gear" class="card">
+                <h2 class="section-title">Additional Gear</h2>
+                <p>Depending on the distance and weather, you may need extra gear for safety and comfort.</p>
+                <p>For example, a wetsuit can help in cold water, and a hydration system can be useful during longer races.</p>
+                <p>In longer races, you may choose to wear socks for cycling and running. In shorter races, some athletes go without them to save time during transitions.</p>
+            </section>
         </article>
-    </main>
+    <footer>
+        <!-- link to the other page-->
+        <p> Click here to go back <a href="index.html"> home </a></p>
+    </footer>
     
 </body>
 </html>
