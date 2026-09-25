@@ -1,4 +1,4 @@
-/*General styles*/
+/*shared page colors and readable text for both pages*/
 body {
     margin: 0;
     background-color: #eef7f5;
@@ -8,6 +8,7 @@ body {
     line-height: 1.6;
 }
 
+/*Center the content in the top and bottom areas*/
 header, footer {
     text-align: center;
     padding: 24px;
@@ -18,6 +19,7 @@ header {
     color: white;
 }
 
+/*keep the header image inside the screen on smaller devices*/
 header img {
     max-width: 100%;
     height: auto;
@@ -32,20 +34,21 @@ p {
     margin-bottom: 16px;
 }
 
+/*limit the content width so long lines are easier to read*/
 main {
     max-width: 1100px;
     margin: 32px auto;
     padding: 0 16px;
 }
 
-/*flexbox*/
+/*place the cards side by side and let them wrap on narrow screens*/
 .content-grid {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
 }
 
-/*reusable classes*/
+/*shared card style used for sections on both pages*/
 .card {
     flex: 1 1 300px;
     padding: 24px;
@@ -53,11 +56,12 @@ main {
     border-radius: 12px;
 }
 
-
+/*give all section headings the same accent color*/
 .section-title {
     color: #087e8b;
 }
 
+/*prevent an image from overflowing its card*/
 .card img {
     display: block;
     max-width: 100%;
@@ -65,7 +69,7 @@ main {
     border-radius: 12px;
 }
 
-/*IDs*/
+/*use a colored top border to distinguish the sections*/
 #overview {
     border-top: 6px solid #087e8b;
 }
@@ -82,6 +86,7 @@ main {
     border-top: 6px solid #e09f3e;
 }
 
+/*make the footer visually different*/
 footer {
     background-color: #183b3b;
     color: white;
