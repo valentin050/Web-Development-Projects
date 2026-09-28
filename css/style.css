@@ -95,3 +95,34 @@ footer {
 footer a {
     color: #ffd166;
 }
+
+/*Use a single column and smaller spacing on phones and tablets*/
+@media (max-width: 768px) {
+    header, footer {
+        padding: 16px;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    main {
+        margin: 20px auto;
+        padding: 0 12px;
+    }
+
+    .content-grid {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .card {
+        flex: 0 1 auto;
+        min-width: 0;
+        padding: 16px;
+    }
+}
