@@ -14,7 +14,7 @@ header, footer {
     padding: 24px;
 }
 
-header {
+header, header a {
     background-color: #087e8b;
     color: white;
 }
